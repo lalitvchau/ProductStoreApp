@@ -1,0 +1,25 @@
+import React , {Component} from 'react';
+class StoreMissionComponent extends Component{
+    render(){
+        let markup =
+            (
+                <div className="col-md-6 widget">
+                    <h3 className="widget-title">Text widget</h3>
+                    <div className="widget-body">
+                        <p>
+                            Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document. To make your document look professionally produced, Word provides CompanyMission, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, CompanyMission, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+                        </p>
+
+                        <p>
+                            Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme. Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+                        </p>
+                    </div>
+                </div>
+            );
+
+        return markup;
+    }
+}
+export{
+    StoreMissionComponent
+};
